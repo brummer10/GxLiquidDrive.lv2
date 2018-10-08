@@ -103,7 +103,8 @@ rdfs:comment """
     ] .
 
 <http://guitarix.sourceforge.net/plugins/gx_liquiddrive_gui#_liquiddrive_>
-  a guiext:GtkUI;
+  a guiext:X11UI;
   guiext:binary <gx_liquiddrive_ui.so>;
-  guiext:requiredFeature guiext:makeResident;
+        lv2:extensionData guiext::idle ; 
+        lv2:requiredFeature guiext:makeResident;
   .
