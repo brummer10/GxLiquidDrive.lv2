@@ -123,7 +123,7 @@ Gx_liquiddrive_::Gx_liquiddrive_() :
   input(NULL),
   liquiddrive(liquiddrive::plugin()),
   bypass(0),
-  bypass_(0),
+  bypass_(2),
   needs_ramp_down(false),
   needs_ramp_up(false),
   bypassed(false) {};
